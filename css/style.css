@@ -14,6 +14,8 @@ body{
 h1{
     display: inline;
     vertical-align: middle;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 button{
@@ -22,14 +24,36 @@ button{
     border-radius: 20%;
 }
 
+
+
+/* lista */
+
+.lists{
+    font-size: larger;
+}
+
 ul{
     list-style-type: none;
-    margin: 20px;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 li{
-    margin: 10px;
+    margin: 20px;
 }
+
+.check{
+    color: green;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
+.cross{
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
 
 /* contenitore titolo */
 
@@ -41,15 +65,19 @@ li{
 img{
     vertical-align: middle;
 }
+
+
 /* contenitore principale */
 .container-central{
     background-color: white;
     max-width: 900px;
-    height: 500px;
+    height: 600px;
     margin: 0 auto;
     margin-top: 30px;
 }    
 
+
+/* bottoni */
 .container-button{
     height: 50px;
     border-bottom: 2px solid rgb(241,248,246);
