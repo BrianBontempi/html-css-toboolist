@@ -7,15 +7,29 @@
 
 /* generic rules */
 
+body{
+    background-color: rgb(241, 248, 246);
+}
+
 h1{
     display: inline;
     vertical-align: middle;
 }
 .container-title{
-    border-bottom: solid black;
     height: 70px;
+    background-color: white;
 }
 
 img{
     vertical-align: middle;
 }
+
+.container-central{
+    background-color: white;
+    max-width: 900px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 5%;
+}    
+    
