@@ -17,10 +17,21 @@ h1{
 }
 
 button{
-    margin-top: 15px;
+    margin-top: 7px;
     padding: 8px;
     border-radius: 20%;
 }
+
+ul{
+    list-style-type: none;
+    margin: 20px;
+}
+
+li{
+    margin: 10px;
+}
+
+/* contenitore titolo */
 
 .container-title{
     height: 70px;
@@ -30,7 +41,7 @@ button{
 img{
     vertical-align: middle;
 }
-
+/* contenitore principale */
 .container-central{
     background-color: white;
     max-width: 900px;
@@ -47,5 +58,6 @@ img{
 
 #task{
     background-color: rgb(0, 179, 255);
+    color: white;
 }
     
