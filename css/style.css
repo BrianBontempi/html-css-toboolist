@@ -4,3 +4,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* generic rules */
+
+h1{
+    display: inline;
+    vertical-align: middle;
+}
+.container-title{
+    border-bottom: solid black;
+    height: 70px;
+}
+
+img{
+    vertical-align: middle;
+}
