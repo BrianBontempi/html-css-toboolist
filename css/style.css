@@ -29,6 +29,10 @@ img{
     vertical-align: middle;
 }
 
+header{
+    margin-top: 15px;
+}
+
 /* contenitore principale */
 .container-central{
     background-color: white;
